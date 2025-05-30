@@ -12,10 +12,6 @@
             <div class="logo">Eshu Chitkoti</div>
             <div class="nav-links">
                 <a href="/" class="nav-link">Home</a>
-                <a href="/properties.html" class="nav-link">Properties</a>
-                <a href="/services.html" class="nav-link">Services</a>
-                <a href="/about.html" class="nav-link">About</a>
-                <a href="/contact.html" class="nav-link">Contact</a>
             </div>
             <button class="mobile-menu-btn" aria-label="Toggle menu">
                 <span></span>
@@ -29,7 +25,9 @@
         <section class="selling-form">
             <div class="container">
                 <h1>Sell Your Property</h1>
-                <form id="sellerForm" class="contact-form">
+                <form action="https://formsubmit.co/surajrajuytc@gmail.com" method="POST" id="sellerForm" class="contact-form">
+                    <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                    <input type="hidden" name="_captcha" value="false">
                     <div class="form-group">
                         <label for="name">Full Name *</label>
                         <input type="text" id="name" name="name" required>
