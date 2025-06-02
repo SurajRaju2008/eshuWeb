@@ -19,23 +19,50 @@ mobileMenuBtn.addEventListener('click', () => {
 // Reviews Slider
 const reviews = [
     {
-        name: "Sarah Johnson",
-        image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
-        text: "Our agent was incredible throughout our entire home buying process.",
+        name: "Anthony S",
+        text: "Working with Eshu was an absolute pleasure. He is incredibly attentive, organized, and trulygoes above and beyond for his clients. His dedication to ensuring every detail is taken care of made the entire process seamless and stress-free. It’s rare to find someone who combines professionalism with such genuine care for his clients’ needs. I highly recommend Eshu to anyone looking for exceptional service and commitment.",
         rating: 5
     },
     {
-        name: "Michael Thompson",
-        image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
-        text: "Selling our family home of 25 years was emotional, but our agent handled everything professionally.",
+        name: "Ani",
+        text: "I cannot say enough good things about Eshu. He was always available to answer my questions, no matter how small, and made sure I felt informed and comfortable every step of the way. His work ethic is unmatched, and his ability to stay calm and composed in any situation is truly admirable. If you're looking for someone you can trust to put your needs first and deliver outstanding results, Eshu is the person you need.",
         rating: 5
     },
     {
-        name: "Jennifer Davis",
-        image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
-        text: "The market analysis provided was detailed and accurate.",
+        name: "Karunakar C",
+        text: "What stood out most about Eshu was his incredible attention to detail and commitment to excellence. He genuinely listened to what I needed and worked tirelessly to ensure everything was perfect. His ability to communicate clearly and keep everything on track was amazing. It’s rare to find someone who cares as much about their work as Eshu does, and I’m so grateful for his help.",
         rating: 5
-    }
+    },
+    {
+        name: "Jay",
+        text: "From start to finish, Eshu was an absolute professional. He brought so much positive energy and determination to the table, making sure all my concerns were addressed promptly and effectively. His reliability and dedication to providing the best service possible truly made all the difference. I felt like I was his top priority throughout the entire process, and I couldn’t be happier with the results.",
+        rating: 5
+      },
+      {
+        name: "Sara",
+        text: "Eshu is the epitome of professionalism and dedication. He worked incredibly hard to ensure everything was handled smoothly, always keeping my best interests in mind. What really impressed me was his ability to stay patient and understanding, even when challenges arose. His integrity and genuine passion for helping others shine through in everything he does. I wouldn’t hesitate to recommend Eshu to anyone looking for outstanding service and support.",
+        rating: 5
+      },
+      {
+        name: "Ruben",
+        text: "The deal would not have gone through without Eshu. His commitment to ensuring everything worked out for all parties was truly remarkable. He even gave up part of his commission to make sure the deal closed smoothly. Eshu's selflessness, dedication, and unwavering focus on the bigger picture set him apart. I am beyond grateful for his hard work and generosity—he truly goes the extra mile for his clients.",
+        rating: 5
+      },
+      {
+        name: "Khushi",
+        text: "Eshu is an outstanding realtor with an exceptional work ethic. He is always available, highly responsive, and genuinely committed to helping his clients find the perfect property. Eshu goes above and beyond to ensure every detail is taken care of, from start to finish. His professionalism, dedication, and knowledge of the real estate market are unmatched. Working with him is a seamless and enjoyable experience. Highly recommended!",
+        rating: 5
+      },
+      {
+        name: "Krish",
+        text: "Eshu is an outstanding realtor with an exceptional work ethic. He is always available, highly responsive, and genuinely committed to helping his clients find the perfect property. Eshu goes above and beyond to ensure every detail is taken care of, from start to finish. His professionalism, dedication, and knowledge of the real estate market are unmatched. Working with him is a seamless and enjoyable experience. Highly recommended!",
+        rating: 5
+      },
+      {
+        name: "Mayank",
+        text: "Eshu is an outstanding realtor with an exceptional work ethic. He is always available, highly responsive, and genuinely committed to helping his clients find the perfect property. Eshu goes above and beyond to ensure every detail is taken care of, from start to finish. His professionalism, dedication, and knowledge of the real estate market are unmatched. Working with him is a seamless and enjoyable experience. Highly recommended!",
+        rating: 5
+      }
 ];
 
 const reviewsTrack = document.querySelector('.reviews-track');
@@ -48,7 +75,6 @@ reviews.forEach(review => {
     const reviewCard = document.createElement('div');
     reviewCard.className = 'review-card';
     reviewCard.innerHTML = `
-        <img src="${review.image}" alt="${review.name}" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 1rem;">
         <h3>${review.name}</h3>
         <div class="stars">${'★'.repeat(review.rating)}${'☆'.repeat(5-review.rating)}</div>
         <p>${review.text}</p>

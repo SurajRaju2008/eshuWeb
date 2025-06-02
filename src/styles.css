@@ -116,6 +116,7 @@ h1, h2, h3 {
     max-width: var(--max-width);
     margin: 0 auto;
     color: var(--white);
+    text-align: center;
 }
 
 .hero h1 {
@@ -175,6 +176,7 @@ h1, h2, h3 {
     gap: 2rem;
     max-width: var(--max-width);
     margin: 0 auto;
+    animation: autoShowAnimation 0.8s ease-in-out both;
 }
 
 .service-card {
@@ -194,6 +196,14 @@ h1, h2, h3 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
+#buyer-services {
+    background-color: #f9fafb;
+}
+
+#seller-services {
+    background-color: #fffdf8; 
+}
+
 
 /* Reviews Section */
 .reviews {
