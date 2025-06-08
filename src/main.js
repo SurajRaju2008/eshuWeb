@@ -50,7 +50,7 @@ const reviews = [
       },
       {
         name: "Khushi",
-        text: "Eshu is an outstanding realtor with an exceptional work ethic. He is always available, highly responsive, and genuinely committed to helping his clients find the perfect property. Eshu goes above and beyond to ensure every detail is taken care of, from start to finish. His professionalism, dedication, and knowledge of the real estate market are unmatched. Working with him is a seamless and enjoyable experience. Highly recommended!",
+        text: "I had an exceptional experience working with Eshu. From start to finish, Eshu was attentive, responsive, and he genuinely cared about understanding my needs. He took the time to walk me through every step of the process, making sure I felt comfortable and informed. His professionalism, combined with a personal touch, made the entire experience smooth and stress-free. I truly felt like he was on my side, and I highly recommend him to anyone looking for a reliable and supportive realtor to work with. He is a very hard worker!!",
         rating: 5
       },
       {
@@ -60,7 +60,7 @@ const reviews = [
       },
       {
         name: "Mayank",
-        text: "Eshu is an outstanding realtor with an exceptional work ethic. He is always available, highly responsive, and genuinely committed to helping his clients find the perfect property. Eshu goes above and beyond to ensure every detail is taken care of, from start to finish. His professionalism, dedication, and knowledge of the real estate market are unmatched. Working with him is a seamless and enjoyable experience. Highly recommended!",
+        text: "Saieshwar is incredibly smart when it comes to navigating the real estate market. I highly recommend him.",
         rating: 5
       }
 ];
@@ -146,12 +146,12 @@ const properties = [
     },
     {
       image: "src/pics/437.png",
-      title: "Charming Brick Ranch",
+      title: "Charming Brick House",
       price: "$279,954",
-      location: "437 E Pine Hurst Drive, IL",
-      beds: 4,
-      baths: 2,
-      sqft: 2170
+      location: "437 Pine Lake Cir, Vernon Hills, IL 60061",
+      beds: 3,
+      baths: 3,
+      sqft: 1800
     },
     {
         image: "src/pics/41.png",
