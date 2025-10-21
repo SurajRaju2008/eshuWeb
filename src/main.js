@@ -136,13 +136,13 @@ const properties = [
       sqft: 12548,
     },
     {
-        image: "src/pics/235.png",
-        title: "Spacious Family Home",
-        price: "$525,000",
-        location: "235 E Baltusrol Dr, Vernon Hills, IL 60061",
-        beds: 5,
-        baths: 3.5,
-        sqft: 3311
+      image: "src/pics/235.png",
+      title: "Spacious Family Home",
+      price: "$525,000",
+      location: "235 E Baltusrol Dr, Vernon Hills, IL 60061",
+      beds: 5,
+      baths: 3.5,
+      sqft: 3311
     },
     {
       image: "src/pics/437.png",
@@ -197,7 +197,53 @@ const properties = [
       beds: 4,
       baths: 1,
       sqft: 1260
-    }
+    },
+    //new 
+    {
+      image: "src/pics/1014.png",
+      title: "Apartment Complex",
+      price: "$420,900",
+      location: "1014 Edwards St, Wakugean, IL 60085",
+      beds: 12,
+      baths: 4,
+      sqft: 6000
+    },
+    {
+      image: "src/pics/7740.png",
+      title: "Beautiful Split-Level Ranch",
+      price: "$290,000",
+      location: "7740 S Paxton Ave, Chicago, IL 60649",
+      beds: 3,
+      baths: 1.5,
+      sqft: 1239
+    },
+    {
+      image: "src/pics/2037.png",
+      title: "Classic Suburban Home",
+      price: "$740,000",
+      location: "2037 Inverness Dr, Vernon Hills, IL 60061",
+      beds: 6,
+      baths: 3.5,
+      sqft: 3142
+    },
+    {
+      image: "src/pics/31.png",
+      title: "Cozy Brick Home",
+      price: "$685,000",
+      location: "31 Berkshire Ln, Lincolnshire, IL 60069",
+      beds: 4,
+      baths: 4,
+      sqft: 2750
+    },
+    {
+      image: "src/pics/539.png",
+      title: "Vibrant Suburban Home",
+      price: "$260,00",
+      location: "539 Lucille Ave, Elgin, IL 60120",
+      beds: 2,
+      baths: 1,
+      sqft: 1068
+    },
   ];
   
 
