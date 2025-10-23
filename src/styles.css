@@ -239,13 +239,6 @@ padding: 5rem 1rem;
 background: var(--white);
 }
 
-.services h2 {
-text-align: center;
-font-size: 2.5rem;
-margin-bottom: 3rem;
-color: var(--primary-color);
-}
-
 .stages-container {
 display: grid;
 grid-template-columns: 1fr;
@@ -274,12 +267,6 @@ font-size: 1.5rem;
 color: var(--accent-color);
 margin-bottom: 1rem;
 font-weight: 600;
-}
-
-.stage-card p {
-color: var(--text-color);
-line-height: 1.6;
-font-size: 1.05rem;
 }
 
 #seller-services {
