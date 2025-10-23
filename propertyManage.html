@@ -10,17 +10,15 @@
   <body>
     <header class="header" id="header">
       <nav class="nav">
-        <div class="logo">ECL Realty LLC</div>
+        <a class="logo" href="#hero">ECL Realty LLC</a>
         <div class="nav-links">
-          <a href="#why-choose-us" class="nav-link">Why Us</a>
-          <a href="#services" class="nav-link">Services</a>
-          <a href="#contact" class="nav-link">Contact</a>
+          <a href="" class="nav-link">Login</a>
         </div>
         <button class="mobile-menu-btn">☰</button>
       </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero-content">
         <h1>Professional Property Management</h1>
         <p>Excellence in Every Detail</p>
@@ -29,7 +27,7 @@
             <a href="#why-choose-us" class="btn btn-primary">Rent your Home</a>
             <a href="#services" class="btn btn-secondary">Access Off Market Listings</a>
           </div>
-          <a href="index.html" class="btn btn-trimary">List/Sell</a>
+          <a href="index.html" class="btn btn-trimary">Buy/Sell</a>
         </div>
       </div>
     </section>
@@ -50,11 +48,9 @@
               <p>We don't wait for problems to happen — our team performs two proactive maintenance walk-throughs every week at each property to ensure there's no damage, safety hazard, or deferred maintenance. We also take care of leaf removal, lawn mowing, and snow removal so your properties stay clean, compliant, and curb-appeal ready year-round.</p>
               <p class="metric">Average maintenance issue caught before tenant report: 83%</p>
             </div>
-            <div class="zigzag-image" style="background-image: url('https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg');"></div>
           </div>
 
           <div class="zigzag-item right">
-            <div class="zigzag-image" style="background-image: url('https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg');"></div>
             <div class="zigzag-content">
               <div class="service-icon">📊</div>
               <h3>Transparent Owner Access</h3>
@@ -72,11 +68,9 @@
               <p>No call centers, no generic ticket queues. You can reach Eshu directly, 24/7 for urgent matters or portfolio updates. We maintain a personal line for owners because responsiveness builds trust.</p>
               <p class="metric">Avg. response time to owner texts: under 15 minutes.</p>
             </div>
-            <div class="zigzag-image" style="background-image: url('https://images.pexels.com/photos/5933/telephone-vintage-old-year-built-1955.jpg');"></div>
           </div>
 
           <div class="zigzag-item right">
-            <div class="zigzag-image" style="background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg');"></div>
             <div class="zigzag-content">
               <div class="service-icon">⚙️</div>
               <h3>Tech-Driven Automation & Reporting</h3>
@@ -94,11 +88,9 @@
               <p>Our fees are straightforward and transparent. We forward every vendor invoice at cost — no markup, no surprises.</p>
               <p class="metric">Maintenance markup: 0% | Contract cancellation fee: $0.</p>
             </div>
-            <div class="zigzag-image" style="background-image: url('https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg');"></div>
           </div>
 
           <div class="zigzag-item right">
-            <div class="zigzag-image" style="background-image: url('https://images.pexels.com/photos/5668838/pexels-photo-5668838.jpeg');"></div>
             <div class="zigzag-content">
               <div class="service-icon">⚖️</div>
               <h3>Community & Compliance</h3>
@@ -118,9 +110,17 @@
 
         <div class="tabs-wrapper">
           <div class="tabs-nav">
-            <button class="tab-btn active" data-tab="full-service">
+            <button class="tab-btn active" data-tab="off-market">
+              <span class="tab-icon">🛒</span>
+              <span class="tab-label">Off-Market</span>
+            </button>
+            <button class="tab-btn" data-tab="full-service">
               <span class="tab-icon">🏢</span>
               <span class="tab-label">Full-Service</span>
+            </button>
+            <button class="tab-btn" data-tab="senior">
+              <span class="tab-icon">👴</span>
+              <span class="tab-label">Senior Home</span>
             </button>
             <button class="tab-btn" data-tab="tenant">
               <span class="tab-icon">👥</span>
@@ -144,8 +144,37 @@
             </button>
           </div>
 
-          <div class="tabs-content">
-            <div class="tab-panel active" id="full-service">
+        <div class="tabs-content">
+          <div class="tab-panel active" id="offmarket">
+            <div class="tab-split">
+                <div class="tab-text">
+                <h3>Exclusive Access to Off-Market Properties</h3>
+                <h4>Instant Equity, Hidden Opportunities.</h4>
+                <p>
+                    Through our dedicated off-market acquisition system, clients gain access to properties that never reach the MLS — often secured at 70–85% of market value for immediate equity and stronger returns. 
+                    Recent deals include multi-unit and single-family homes purchased well below value, generating six-figure equity and rental income from day one. 
+                    Our off-market pipeline gives investors and homeowners opportunities traditional channels can’t match.
+                </p>
+
+                <div class="metric-box">
+                    <div class="metric-item">
+                    <span class="metric-value">70–85%</span>
+                    <span class="metric-label">Purchase Below Market</span>
+                    </div>
+                    <div class="metric-item">
+                    <span class="metric-value">$200K+</span>
+                    <span class="metric-label">Typical Instant Equity</span>
+                    </div>
+                </div>
+
+                <a href="#contact" class="btn btn-primary">Get Access</a>
+                </div>
+
+                <div class="tab-image" style="background-image: url('https://images.pexels.com/photos/8293771/pexels-photo-8293771.jpeg');"></div>
+                </div>
+            </div>
+
+            <div class="tab-panel " id="full-service">
               <div class="tab-split">
                 <div class="tab-text">
                   <h3>Full-Service Property Management</h3>
@@ -163,9 +192,34 @@
                   </div>
                   <a href="#contact" class="btn btn-primary">Schedule a Free Property Evaluation</a>
                 </div>
-                <div class="tab-image" style="background-image: url('https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg');"></div>
+                <div class="tab-image" style="background-image: url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg');"></div>
               </div>
             </div>
+            
+            <div class="tab-panel" id="senior">
+                <div class="tab-split">
+                    <div class="tab-text">
+                    <h3>Senior Home Management and Support</h3>
+                    <h4>Comfort, Safety, and Peace of Mind for Every Homeowner.</h4>
+                    <p>Our full-service program helps older homeowners stay comfortable and independent by managing all home maintenance — from plumbing and electrical work to lawn care, snow removal, and seasonal upkeep. We also assist with light home tasks, safety checks, and repairs while offering 24/7 on-call support and a family portal for updates. With reliable care and transparent communication, families can rest assured their loved one’s home is always safe and well-maintained.</p>
+
+                    <div class="metric-box">
+                        <div class="metric-item">
+                        <span class="metric-value">24/7</span>
+                        <span class="metric-label">On-Call Support</span>
+                        </div>
+                        <div class="metric-item">
+                        <span class="metric-value">100%</span>
+                        <span class="metric-label">Home Safety Coverage</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">Get Support</a>
+                    </div>
+
+                    <div class="tab-image" style="background-image: url('https://images.pexels.com/photos/3768131/pexels-photo-3768131.jpeg');"></div>
+                </div>
+                </div>
 
             <div class="tab-panel" id="tenant">
               <div class="tab-split">
@@ -305,7 +359,7 @@
         </div>
         <div class="footer-section">
           <h3>Contact</h3>
-          <p>Email: eshurealty@gmail.com</p>
+          <p>Email: eclrealtyllc1@gmail.com</p>
           <p>Phone: (847) 691-4282</p>
         </div>
       </div>

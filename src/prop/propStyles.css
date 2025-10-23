@@ -67,6 +67,7 @@ h1, h2, h3 {
     color: var(--white);
     letter-spacing: -0.5px;
     transition: transform 0.3s;
+    text-decoration: none;
 }
 
 .logo:hover {
